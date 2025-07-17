@@ -1,0 +1,59 @@
+.reward-content {
+  border-radius: 12px;
+  padding: 5px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: url('../../styles/backgrounds/reward-banner-v1.svg') no-repeat;
+  background-size: cover;
+  background-position: 15% 0%;
+}
+
+@media (width >= 900px) {
+  .reward-content {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+
+.reward-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #fff;
+  padding-left: 252px;
+  gap: 10px;
+  width: 50%;
+}
+
+@media (width < 900px) {
+  .reward-left {
+    padding-left: 220px;
+  }
+  .reward-left p{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.reward-left h4,p {
+  margin: 10px;
+}
+
+.reward-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.reward-left h6{
+  font-size: 32px;
+  font: normal normal normal 32px / 32px Baskerville;
+}
+
+@media (width >= 900px) {
+  .reward-left h4,p {
+    margin: 0;
+  }
+}
